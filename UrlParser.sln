@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlParser", "UrlParser\UrlParser.csproj", "{44286390-75B2-4675-BF38-C1CC8ECFE922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlParser.Tests", "UrlParser.Tests\UrlParser.Tests.csproj", "{39454C79-8F6F-4CF7-9660-83E07039C4BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{33D43ABD-793D-481F-84DD-607F7E8147CD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{43550C70-7306-44FA-8467-316B8A3DD03C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44286390-75B2-4675-BF38-C1CC8ECFE922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44286390-75B2-4675-BF38-C1CC8ECFE922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44286390-75B2-4675-BF38-C1CC8ECFE922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44286390-75B2-4675-BF38-C1CC8ECFE922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39454C79-8F6F-4CF7-9660-83E07039C4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39454C79-8F6F-4CF7-9660-83E07039C4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39454C79-8F6F-4CF7-9660-83E07039C4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39454C79-8F6F-4CF7-9660-83E07039C4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
